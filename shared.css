@@ -1,0 +1,11 @@
+/* shared.css : theme/sound buttons + back button, used by front page and portfolio */
+[data-tools]{display:inline-flex;align-items:center;gap:8px}
+[data-tools] .odtb,.back-btn{width:36px;height:36px;padding:0;border-radius:11px;border:1px solid var(--line);background:var(--bg);color:var(--accent,var(--yellow));font:inherit;font-size:16px;line-height:1;cursor:pointer;display:grid;place-items:center;flex:none;transition:transform .2s,box-shadow .25s,border-color .25s}
+[data-tools] .odtb:hover,[data-tools] .odtb:focus-visible,.back-btn:hover,.back-btn:focus-visible{outline:0;border-color:var(--accent,var(--yellow));box-shadow:0 0 18px -2px var(--accent,var(--yellow));transform:translateY(-2px)}
+[data-tools] .odtb:active,.back-btn:active{transform:scale(.9)}
+.back-btn{font-size:19px;font-weight:800}
+.tb-left{display:flex;align-items:center;gap:10px;min-width:0}
+@media(max-width:380px){.tb-left .brand>span{display:none}}
+/* front page status bar: keep the pill on one line even when the install button shows up */
+.bar{gap:8px}.bar .tools{min-width:0}.bar #pill{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+@media(max-width:420px){[data-tools]{gap:6px}[data-tools] .odtb{width:32px;height:32px;font-size:15px}}
