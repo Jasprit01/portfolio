@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Python programming language logo">
+  <path fill="#3776AB" d="M126 20c-54 0-50 23-50 23v25h52v8H55S20 72 20 126s31 52 31 52h19v-27s-1-32 32-32h53s30 0 30-29V48s4-28-59-28Zm-29 25a9 9 0 1 1 0 18 9 9 0 0 1 0-18Z"/>
+  <path fill="#FFD343" d="M130 236c54 0 50-23 50-23v-25h-52v-8h73s35 4 35-50-31-52-31-52h-19v27s1 32-32 32h-53s-30 0-30 29v42s-4 28 59 28Zm29-45a9 9 0 1 1 0-18 9 9 0 0 1 0 18Z"/>
+</svg>
